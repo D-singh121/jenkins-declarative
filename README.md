@@ -14,7 +14,7 @@ https://github.com/D-singh121/jenkins-declarative-CICD-django-app.git
 
 2. Build the app
 ```
-docker build -t notes-app .
+docker build --no-cache -t notes-app .
 ```
 
 3. Run the app
